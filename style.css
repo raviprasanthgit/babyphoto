@@ -1,5 +1,5 @@
 .gallery {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
   
   .gallery a {
     margin: 10px;
-    display: block;
+    display: inline-block;
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -45,5 +45,12 @@
     font-weight: bold;
     color: #fff;
     cursor: pointer;
+  }
+
+  .thumbnail {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
   }
   
